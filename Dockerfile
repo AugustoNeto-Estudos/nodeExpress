@@ -7,7 +7,7 @@ WORKDIR /main
 EXPOSE 3000
 
 # Copy the application files into the working directory
-COPY./main
+COPY . /main
 
 # Install the application dependencies
 
